@@ -17,7 +17,7 @@ Features
 Live Flow
 
 1. Open the website  
-2. Click on 'Surprise 💖'  
+2. Click on "Surprise 💖"  
 3. Fireworks animation starts 🎆  
 4. Birthday page appears 🎂  
 5. Enter name and click "Wish 🎂" 
