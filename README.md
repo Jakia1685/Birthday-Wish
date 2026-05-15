@@ -20,7 +20,7 @@ Live Flow
 2. Click on 'Surprise 💖'  
 3. Fireworks animation starts 🎆  
 4. Birthday page appears 🎂  
-5. Enter name and click "Wish 🎂"  
+5. Enter name and click "Wish 🎂" 
 6. Roses start falling 🌹  
 7. Enjoy music & celebration 🎵  
 
