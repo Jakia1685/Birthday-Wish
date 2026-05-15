@@ -1,0 +1,121 @@
+body{
+  margin:0;
+  height:100vh;
+  overflow:hidden;
+  font-family:Arial;
+}
+
+/* 🎀 SURPRISE */
+#surprise{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background: linear-gradient(135deg,#ffb6d9,#ffd6f0,#f3e8ff);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  z-index:10;
+}
+
+#surprise h1{
+  color:white;
+  background: rgba(255,0,150,0.4);
+  padding:20px;
+  border-radius:15px;
+}
+
+/* 🎂 BIRTHDAY */
+#birthday{
+  display:none;
+  height:100vh;
+  background: linear-gradient(135deg,#ffe6f0,#f3e8ff);
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;
+  position:relative;
+}
+
+h1{
+  color:#ff2e8a;
+}
+
+input{
+  padding:10px;
+  margin:10px;
+  border-radius:10px;
+  border:1px solid #ccc;
+}
+
+/* 🎯 BUTTON ROW */
+.btn-row{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  margin-top:10px;
+}
+
+button{
+  padding:10px 15px;
+  border:none;
+  background:#ff4fa3;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* 🎂 CAKE ANIMATION */
+.cake{
+  font-size:70px;
+  margin-top:15px;
+  animation: bounce 1.2s infinite ease-in-out, glow 2s infinite;
+}
+
+@keyframes bounce{
+  0%{transform:translateY(0);}
+  50%{transform:translateY(-15px);}
+  100%{transform:translateY(0);}
+}
+
+@keyframes glow{
+  0%{text-shadow:0 0 5px #ff4fa3;}
+  50%{text-shadow:0 0 20px #ff4fa3;}
+  100%{text-shadow:0 0 5px #ff4fa3;}
+}
+
+/* ❤️ HEART */
+.heart{
+  position:absolute;
+  top:20px;
+  right:20px;
+  font-size:40px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  50%{transform:scale(1.5);opacity:0.3;}
+}
+
+/* 🌹 ROSE */
+.rose{
+  position:absolute;
+  top:-50px;
+  font-size:20px;
+  animation: fall linear forwards;
+}
+
+@keyframes fall{
+  to{
+    transform:translateY(110vh);
+    opacity:0.8;
+  }
+}
+
+/* 🎆 FIREWORKS */
+#fireworks{
+  position:absolute;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+}

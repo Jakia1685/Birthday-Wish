@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Surprise 🎉</title>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+<!-- 🎀 SURPRISE SCREEN -->
+<div id="surprise" onclick="startBirthday()">
+  <h1>💖 Surprise 💖</h1>
+</div>
+
+<!-- 🎂 BIRTHDAY SCREEN -->
+<div id="birthday">
+
+  <h1 id="title">🎉 Happy Birthday 🎉</h1>
+
+  <input type="text" id="nameInput" placeholder="Enter Name 💕">
+
+  <!-- 🎯 BUTTON ROW -->
+  <div class="btn-row">
+    <button onclick="setName()">Wish 🎂</button>
+    <button onclick="toggleMusic()">🎵 Music</button>
+  </div>
+
+  <div class="cake">🎂</div>
+
+  <div class="heart">❤️</div>
+
+</div>
+
+<!-- 🎵 MUSIC -->
+<audio id="music" loop>
+  <source src="happy-birthday.mp4" type="audio/mp4">
+</audio>
+
+<!-- 🎆 FIREWORKS -->
+<canvas id="fireworks"></canvas>
+
+<script src="script4.js"></script>
+</body>
+</html>
